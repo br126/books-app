@@ -1,0 +1,13 @@
+.url{
+  font-style: italic;
+}
+.book-desc{
+  font-style: normal;
+  font-size: 20px;
+  background-color: darkkhaki;
+}
+.name{
+  font-size: xx-large;
+  font-style: oblique;
+  text-align: center;
+}
