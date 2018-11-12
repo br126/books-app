@@ -27,14 +27,14 @@ export class Book {
 
 
 
-  public constructor(id: number, title: string, author: string, description: string, imageUrl: string, reserved: boolean, avaliable: boolean) {
+  public constructor(id: number, title: string, author: string, description: string, imageUrl: string, reserved: boolean, available: boolean) {
     this._id = id;
     this._title = title;
     this._author = author;
     this._description = description;
     this._imageUrl = imageUrl;
     this._reserved = reserved;
-    this.available = avaliable;
+    this.available = available;
   }
 
 

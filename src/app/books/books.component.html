@@ -19,9 +19,9 @@
     <td>{{book.title}}</td>
     <td>{{book.author}}</td>
     <td>
-      <button *ngIf="book.available; else avaliable" class="btn btn-primary">ddddddddd</button>
+      <button *ngIf="book.available; else available" class="btn btn-primary">ddddddddd</button>
       <!--<div *ngIf="!book.available">book is not avaliable</div>-->
-      <ng-template #avaliable>book is not avaliable</ng-template>
+      <ng-template #available>book is not available</ng-template>
     </td>
   </tr>
 
